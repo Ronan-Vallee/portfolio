@@ -1,7 +1,8 @@
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 
 const firaCode = Fira_Code({
   variable: "--font-fira-code",
@@ -26,6 +27,7 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
