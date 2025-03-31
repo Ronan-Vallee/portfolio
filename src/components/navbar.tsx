@@ -1,11 +1,12 @@
 "use client";
 
+import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
-import { cn } from "@/lib/utils";
+import PortfolioTitle from "./portfolio-title";
 
 const navItems = [
 	{ name: "Accueil", path: "/" },
@@ -44,12 +45,7 @@ export default function Navbar() {
 		<header className="fixed top-0 left-0 w-full z-50">
 			<nav className="max-w-[90rem] mx-auto px-6 py-4 bg-background/80 backdrop-blur-md border-b border-border">
 				<div className="flex items-center justify-between">
-					<Link
-						href="/"
-						className="text-2xl font-bold tracking-tight hover:opacity-80 transition"
-					>
-						Portfolio<span className="text-primary">.</span>
-					</Link>
+					<PortfolioTitle className="text-2xl"/>
 
 					{/* Desktop Navigation */}
 					<div className="hidden md:flex items-center space-x-8">
