@@ -10,6 +10,7 @@ import PortfolioTitle from "./portfolio-title";
 
 const navItems = [
 	{ name: "Accueil", path: "/" },
+	{ name: "Projets", path: "/projets" },
 	{ name: "Contact", path: "/contact" },
 ];
 
