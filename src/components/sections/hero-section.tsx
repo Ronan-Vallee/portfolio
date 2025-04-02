@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import Link from "next/link";
+import PhoneModel from "../3d/phone-model";
 import AnimatedText from "../animations/animated-text";
 import { Button } from "../ui/button";
 
@@ -68,6 +69,18 @@ export default function HeroSection() {
 						</Button>
 					</div>
 				</div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="relative h-[400px] md:h-[500px] mx-auto w-full max-w-md z-10"
+        >
+          <PhoneModel 
+            screenImage="/screen.png"
+            className="h-full"
+          />
+        </motion.div>
 			</div>
 
 			<div className="absolute bottom-10 left-0 right-0 flex justify-center">
