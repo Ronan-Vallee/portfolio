@@ -13,6 +13,9 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Portfolio Ronan Vallée | Développeur Mobile & Web",
   description: "Portfolio de Ronan Vallée, développeur mobile Flutter et web React/Next.js",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
