@@ -77,7 +77,8 @@ export default function HeroSection() {
           className="relative h-[400px] md:h-[500px] mx-auto w-full max-w-md z-10"
         >
           <PhoneModel 
-            screenImage="/screen.png"
+            screenImage="/videos/iko.mp4"
+						isVideo={true}
             className="h-full"
           />
         </motion.div>
