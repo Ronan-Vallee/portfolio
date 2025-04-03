@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   env: {
     RESEND_API_KEY: process.env.RESEND_API_KEY,
     RECIPIENT_EMAIL: process.env.RECIPIENT_EMAIL,
