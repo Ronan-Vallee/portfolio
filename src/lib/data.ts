@@ -17,6 +17,9 @@ export const projects: Project[] = [
 			"Cloud Firestore",
 			"Firebase Auth",
 			"FastAPI",
+			"Clean Architecture",
+			"BLoC",
+			"Hive",
 		],
 		verticalScreenshots: [
 			"/images/iko/home.jpg",
@@ -61,7 +64,7 @@ export const projects: Project[] = [
 		shortDescription:
 			"Refonte graphique et ajout de fonctionnalités sur une application mobile de recommandations immobilières",
 		coverImage: "/images/promptimmo/pres.png",
-		technologies: ["Flutter", "Dart", "PHP", "Yii", "Socket.io"],
+		technologies: ["Flutter", "Dart", "PHP", "Yii", "Socket.io", "GetX"],
 		category: "mobile",
 		verticalScreenshots: [
 			"/images/promptimmo/actus.png",
@@ -126,7 +129,13 @@ export const projects: Project[] = [
 		shortDescription:
 			"Application météo réalisée dans le cadre d'un test technique",
 		coverImage: "/images/weather/weather.png",
-		technologies: ["Flutter", "Dart", "Open-Weather API"],
+		technologies: [
+			"Flutter",
+			"Dart",
+			"Open-Weather API",
+			"Clean Architecture",
+			"BLoC",
+		],
 		category: "mobile",
 		verticalScreenshots: [
 			"/images/weather/forecast.png",
@@ -168,6 +177,8 @@ export const projects: Project[] = [
 			"React",
 			"TypeScript",
 			"Tailwind CSS",
+			"MVVM",
+			"Riverpod",
 		],
 		category: "web",
 		githubURL: "https://github.com/Ronan-Vallee/dev-portfolio",
