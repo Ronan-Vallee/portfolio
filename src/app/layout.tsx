@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 
 const firaCode = Fira_Code({
   variable: "--font-fira-code",
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow">
           {children}
+          <Analytics />
         </main>
         <Footer />
       </body>
