@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio de Développeur mobile (Flutter) & Web (Next.js)
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15.2.4-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.17-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-0.175.0-000000?style=flat-square&logo=three.js&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.6.3-0055FF?style=flat-square&logo=framer&logoColor=white)
 
-First, run the development server:
+Portfolio présentant mes compétences et projets en développement mobile et web. Conçu avec Next.js, Framer Motion pour les animations, et Three.js pour les éléments 3D.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Déploiement
+
+Le site est déployé et accessible à l'adresse [ronan-vallee.dev](https://ronan-vallee.dev)
+
+## 🏗️ Structure du projet
+```dev-portfolio/
+├── public/              # Fichiers statiques (images, modèles 3D)
+│   ├── images/          # Images des projets
+│   └── models/          # Modèles 3D (téléphone)
+├── src/
+│   ├── app/             # Structure des pages (Next.js App Router)
+│   ├── components/      # Composants React réutilisables
+│   │   ├── 3d/          # Composants Three.js
+│   │   ├── animations/  # Composants d'animation
+│   │   ├── contact/     # Formulaire et éléments de contact
+│   │   ├── sections/    # Sections principales du site
+│   │   └── ui/          # Composants d'interface utilisateur
+│   ├── lib/             # Utilitaires, données et services
+│   └── hooks/           # Hooks React personnalisés)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📫 Contact
+- LinkedIn: [linkedin.com/in/ronan-vallee](https://linkedin.com/in/ronan-vallee)
+- Malt: [malt.fr/profile/ronanvallee2](https://malt.fr/profile/ronanvallee2)
+- GitHub: [github.com/Ronan-Vallee](https://github.com/Ronan-Vallee)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Par Ronan Vallée
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Capture d’écran 2025-04-06 181655](https://github.com/user-attachments/assets/5b5e2170-6141-42ab-ad36-8e2b0db1f71a)
