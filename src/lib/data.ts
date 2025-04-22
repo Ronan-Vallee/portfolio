@@ -15,11 +15,15 @@ export const projects: Project[] = [
 			"Mangopay",
 			"Firebase",
 			"Cloud Firestore",
+			"Node.js",
 			"Firebase Auth",
 			"FastAPI",
+			"PostgreSQL",
 			"Clean Architecture",
 			"BLoC",
 			"Hive",
+			"Tests unitaires",
+			"Tests d'intégration",
 		],
 		verticalScreenshots: [
 			"/images/iko/home.jpg",
@@ -60,9 +64,8 @@ export const projects: Project[] = [
 		id: "promptimmo",
 		title: "Promptimmo",
 		description:
-			"PROMPTIMMO est une application principalement destinée aux recommandations immobilières. Elle est néanmoins trèss complète et propose de nombreuses fonctionnalités également pour les agents immobiliers PROMPTIMMO. Page d'actualités, messagerie, notes personnelles, gestion de prospects, calendrier de prospection, etc. La refonte graphique était basée sur une maquette déjà fournie, qui devait être respectée",
-		shortDescription:
-			"Refonte graphique et ajout de fonctionnalités sur une application mobile de recommandations immobilières",
+			"PROMPTIMMO est une application principalement destinée aux recommandations immobilières. Elle est néanmoins trèss complète et propose de nombreuses fonctionnalités également pour les agents immobiliers PROMPTIMMO. Page d'actualités, messagerie, notes personnelles, gestion de prospects, calendrier de prospection, etc. Une maquette était fournie et devait être respectée",
+		shortDescription: "Application mobile de recommandations immobilières",
 		coverImage: "/images/promptimmo/pres.png",
 		technologies: ["Flutter", "Dart", "PHP", "Yii", "Socket.io", "GetX"],
 		category: "mobile",
@@ -110,6 +113,7 @@ export const projects: Project[] = [
 			"TypeScript",
 			"Mapbox SDK",
 			"Firebase",
+			"Recharts",
 		],
 		category: "web",
 		horizontalScreenshots: [
@@ -150,7 +154,7 @@ export const projects: Project[] = [
 		title: "Task-Flow",
 		description:
 			"Task-Flow est une application de gestion de tâches. Elle permet de créer des listes de tâches, de les organiser par catégories et de suivre leur avancement ainsi que d'avoir des statistiques personelles. L'application utilise Supabase pour la gestion des utilisateurs et des données. La gestion d'état est faite avec Riverpod et l'architecture en MVVM.",
-		shortDescription: "Application de gestion de tâches",
+		shortDescription: "Application de gestion de tâches partagées",
 		coverImage: "/images/task-flow/cover.png",
 		technologies: ["Flutter", "Dart", "Supabase"],
 		category: "mobile",
@@ -181,6 +185,6 @@ export const projects: Project[] = [
 			"Riverpod",
 		],
 		category: "web",
-		githubURL: "https://github.com/Ronan-Vallee/dev-portfolio",
+		githubURL: "https://github.com/Ronan-Vallee/portfolio",
 	},
 ];
